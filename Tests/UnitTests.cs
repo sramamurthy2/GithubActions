@@ -120,7 +120,7 @@ public class Exponentiation
     {
         Assert.AreEqual(1, Program.Power("1", "2"));
         Assert.AreEqual(9, Program.Power("3", "2"));
-        Assert.AreEqual(35, Program.Power("5", "7"));
+        Assert.AreEqual(78125, Program.Power("5", "7"));
     }
 
     [TestMethod]
